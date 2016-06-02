@@ -10,6 +10,6 @@
 * Project manager
 * SVG Viewer
 * Sass
-* CSS Lint
+* CSSLint
 * Coffeelint
 * Graphviz (dot) language support
