@@ -26,5 +26,8 @@
        "**/bower_components": true,
        "**/dist": true
    },
-   "projectManager.openInNewWindow": true
+   "projectManager.openInNewWindow": true,
+
+   // Use project installed typescript version
+   "typescript.tsdk": "./node_modules/typescript/lib"
 }
