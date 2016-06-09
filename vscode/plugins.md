@@ -13,3 +13,4 @@
 * CSSLint
 * Coffeelint
 * Graphviz (dot) language support
+* vscode-icons (Run 'Icons enable' after install)
