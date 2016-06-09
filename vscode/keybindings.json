@@ -4,7 +4,9 @@
 { "key": "ctrl+shift+down", "command": "editor.action.insertCursorBelow",               "when": "editorTextFocus"   },
 { "key": "ctrl+cmd+down",   "command": "editor.action.moveLinesDownAction",             "when": "editorTextFocus"   },
 { "key": "ctrl+cmd+up",     "command": "editor.action.moveLinesUpAction",               "when": "editorTextFocus"   },
+{ "key": "cmd+y",           "command": "redo",                                          "when": "editorTextFocus"   },
 { "key": "cmd+shift+]",     "command": "workbench.files.action.openNextWorkingFile"                                 },
 { "key": "cmd+shift+[",     "command": "workbench.files.action.openPreviousWorkingFile"                             },
-{ "key": "cmd+w",           "command": "workbench.files.action.closeFile"                                           }
+{ "key": "cmd+w",           "command": "workbench.files.action.closeFile"                                           },
+{ "key": "ctrl+shift+`",    "command": "workbench.action.terminal.toggleTerminal"                                   }
 ]
