@@ -27,6 +27,13 @@
        "**/dist": true
    },
    "projectManager.openInNewWindow": true,
+    "beautify.JSfiles": [
+        "ts",
+        "js",
+        "json",
+        "jsbeautifyrc",
+        "jshintrc"
+    ],
 
    // Use project installed typescript version
    "typescript.tsdk": "./node_modules/typescript/lib"
