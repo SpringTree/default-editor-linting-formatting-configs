@@ -5,8 +5,9 @@
 { "key": "ctrl+cmd+down",   "command": "editor.action.moveLinesDownAction",             "when": "editorTextFocus"   },
 { "key": "ctrl+cmd+up",     "command": "editor.action.moveLinesUpAction",               "when": "editorTextFocus"   },
 { "key": "cmd+y",           "command": "redo",                                          "when": "editorTextFocus"   },
-{ "key": "cmd+shift+]",     "command": "workbench.files.action.openNextWorkingFile"                                 },
-{ "key": "cmd+shift+[",     "command": "workbench.files.action.openPreviousWorkingFile"                             },
-{ "key": "cmd+w",           "command": "workbench.files.action.closeFile"                                           },
-{ "key": "ctrl+shift+`",    "command": "workbench.action.terminal.toggleTerminal"                                   }
+{ "key": "cmd+shift+]",     "command": "workbench.action.nextEditor"                                                },
+{ "key": "cmd+shift+[",     "command": "workbench.action.previousEditor"                                            },
+{ "key": "cmd+w",           "command": "workbench.action.closeActiveEditor"                                         },
+{ "key": "ctrl+shift+`",    "command": "workbench.action.terminal.toggleTerminal"                                   },
+{ "key": "cmd+shift+b",     "command": "HookyQR.beautify",                              "when": "editorTextFocus"   }
 ]
