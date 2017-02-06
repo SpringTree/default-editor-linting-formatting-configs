@@ -1,17 +1,24 @@
 # Installed extensions
 
-* Debugger for Chrome
-* ESLint
+* Align
 * beautify
-* TSLint
-* XML Tools
-* Cordova tools
-* Editorconfig
-* Project manager
-* SVG Viewer
-* Sass
-* CSSLint
 * Coffeelint
+* Color Highlight
+* Cordova tools
+* CSSLint
+* Debugger for Chrome
+* Editorconfig for VS Code
+* ESLint
+* Git Blame
 * Graphviz (dot) language support
-* vscode-icons (Run 'Icons enable' after install)
+* jsx
 * markdownlint
+* Project manager
+* React Native Tools
+* Sass
+* SVG Viewer
+* TextTransform
+* TSLint
+* vscode-flow
+* vscode-icons
+* XML Tools
