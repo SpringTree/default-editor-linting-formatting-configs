@@ -1,42 +1,42 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "explorer.openEditors.visible": 0,
     "editor.renderIndentGuides": true,
-	"editor.tabSize": 4,
-	"editor.insertSpaces": true,
-	"editor.rulers": [80,160,240],
-	"window.reopenFolders": "all",
-	"files.trimTrailingWhitespace": true,
-	"files.exclude": {
-       "**/.git": true,
-       "**/.svn": true,
-       "**/.DS_Store": true,
-       "**/*.js": {
-           "when": "$(basename).ts"
-       },
-       "**/*.d.ts": {
-           "when": "$(basename).ts"
-       }
-   },
-   "files.watcherExclude": {
-	   "**/.git/objects/**": true,
-	   "**/node_modules/**": true,
-	   "**/bower_components/**": true
-   },
-   "search.exclude": {
-       "**/node_modules": true,
-       "**/bower_components": true,
-       "**/dist": true
-   },
-   "projectManager.openInNewWindow": true,
-    "beautify.JSfiles": [
-        "ts",
-        "js",
-        "json",
-        "jsbeautifyrc",
-        "jshintrc"
-    ],
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.rulers": [80, 160, 240],
+    "editor.minimap.enabled": true,
+    "files.trimTrailingWhitespace": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.DS_Store": true,
+        "**/*.js": {
+            "when": "$(basename).ts"
+        },
+        "**/*.js.map": true,
+        "src/**/*.d.ts": {
+            "when": "$(basename).ts"
+        }
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/node_modules/**": true,
+        "**/bower_components/**": true
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/dist": true
+    },
 
-   // Use project installed typescript version
-   "typescript.tsdk": "./node_modules/typescript/lib"
+    // Auto-update your extensions
+    //
+    "extensions.autoUpdate": true,
+
+    // Default TypeScript formatting
+    //
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+    "typescript.format.placeOpenBraceOnNewLineForFunctions": true,
+    "typescript.format.insertSpaceAfterTypeAssertion": true
 }
